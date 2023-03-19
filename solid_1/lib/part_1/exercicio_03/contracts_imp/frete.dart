@@ -1,6 +1,6 @@
-import 'package:solid_1/exercicio_03/cidades.dart';
-import 'package:solid_1/exercicio_03/compra.dart';
-import 'package:solid_1/exercicio_03/contracts_imp/i_frete.dart';
+import 'package:solid_1/part_1/exercicio_03/cidades.dart';
+import 'package:solid_1/part_1/exercicio_03/compra.dart';
+import 'package:solid_1/part_1/exercicio_03/contracts_imp/i_frete.dart';
 
 class Frete implements IFrete {
   Frete(this._compra);

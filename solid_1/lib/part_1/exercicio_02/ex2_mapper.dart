@@ -1,5 +1,5 @@
 
-import 'package:solid_1/exercicio_02/ex2_dto.dart';
+import 'package:solid_1/part_1/exercicio_02/ex2_dto.dart';
 
 class Ex2Mapper {
   Ex2DTO fromJson(Map<String, dynamic> json) {

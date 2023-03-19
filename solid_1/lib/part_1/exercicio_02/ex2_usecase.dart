@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
-import 'package:solid_1/exercicio_02/ex2_dto.dart';
-import 'package:solid_1/exercicio_02/ex2_i_repository.dart';
-import 'package:solid_1/exercicio_02/ex2_i_usecase.dart';
-import 'package:solid_1/exercicio_02/ex2_mapper.dart';
-import 'package:solid_1/exercicio_02/ex2_repository.dart';
+import 'package:solid_1/part_1/exercicio_02/ex2_dto.dart';
+import 'package:solid_1/part_1/exercicio_02/ex2_i_repository.dart';
+import 'package:solid_1/part_1/exercicio_02/ex2_i_usecase.dart';
+import 'package:solid_1/part_1/exercicio_02/ex2_mapper.dart';
+import 'package:solid_1/part_1/exercicio_02/ex2_repository.dart';
 import 'package:http/http.dart' as http;
 
 class Ex2Usecase1 implements IUsecase {

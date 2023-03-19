@@ -1,5 +1,5 @@
-import 'package:solid_1/exercicio_03/contracts_imp/i_frete.dart';
-import 'package:solid_1/exercicio_03/contracts_imp/i_tabela_desconto.dart';
+import 'package:solid_1/part_1/exercicio_03/contracts_imp/i_frete.dart';
+import 'package:solid_1/part_1/exercicio_03/contracts_imp/i_tabela_desconto.dart';
 import 'compra.dart';
 
 class CalculadoraDePrecos {

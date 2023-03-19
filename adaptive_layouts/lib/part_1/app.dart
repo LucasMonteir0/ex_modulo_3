@@ -8,7 +8,7 @@ class App1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    PlatformEnum platform = PlatformEnum.android;
+    PlatformEnum platform = PlatformEnum.ios;
     return getDesignByPlatform(
         platform: platform,
         home: PrismaHomePage(
@@ -94,7 +94,7 @@ class PrismaHomePage extends StatelessWidget {
                     ),
                     Container(
                       width: size.width,
-                      padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8),
                       child: CupertinoButton.filled(
                           child: const Text('Enviar'), onPressed: () {}),
                     ),

@@ -1,13 +1,13 @@
 import 'dart:convert';
-
 import 'package:dio/dio.dart';
-import 'package:solid_1/exercicio_02/ex2_i_repository.dart';
 import 'package:http/http.dart' as http;
+import 'package:solid_1/part_2/exercicio_1/repositories/i_repository.dart';
 
-class Ex2RepositoryDio implements IRepository {
+
+class RepositoryDio implements IRepository {
   final Dio _dio;
 
-  Ex2RepositoryDio(this._dio);
+  RepositoryDio(this._dio);
 
   @override
   Future<List<Map<String, dynamic>>> fetch() async {
@@ -20,9 +20,9 @@ class Ex2RepositoryDio implements IRepository {
   }
 }
 
-class Ex2RepositoryHttp implements IRepository {
+class RepositoryHttp implements IRepository {
   final http.Client _client;
-  Ex2RepositoryHttp(this._client);
+  RepositoryHttp(this._client);
 
   @override
   Future<List<Map<String, dynamic>>> fetch() async {

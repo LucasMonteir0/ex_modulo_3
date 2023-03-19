@@ -1,8 +1,8 @@
-import 'package:solid_1/exercicio_03/calculadora_de_precos.dart';
-import 'package:solid_1/exercicio_03/cidades.dart';
-import 'package:solid_1/exercicio_03/compra.dart';
-import 'package:solid_1/exercicio_03/contracts_imp/frete.dart';
-import 'package:solid_1/exercicio_03/contracts_imp/tabela_desconto.dart';
+import 'part_1/exercicio_03/calculadora_de_precos.dart';
+import 'part_1/exercicio_03/cidades.dart';
+import 'part_1/exercicio_03/compra.dart';
+import 'part_1/exercicio_03/contracts_imp/frete.dart';
+import 'part_1/exercicio_03/contracts_imp/tabela_desconto.dart';
 
 
 

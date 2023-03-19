@@ -1,4 +1,4 @@
-import 'package:solid_1/exercicio_03/compra.dart';
+import 'package:solid_1/part_1/exercicio_03/compra.dart';
 
 abstract class IFrete {
   IFrete(this.valor, this.compra);
