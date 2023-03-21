@@ -1,7 +1,7 @@
-import 'package:adaptative_layouts/part_1/app.dart';
+import 'package:adaptative_layouts/app.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const App1());
+  runApp(const App());
 }
 
